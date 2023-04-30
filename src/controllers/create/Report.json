@@ -1,0 +1,1871 @@
+[
+  {
+    "name": "Schedule Of Condition",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#eaecbe",
+    "typeHeadings": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item Name...",
+        "category": "Items",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item Condition...",
+        "category": "Conditions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [{ "content": "Summary of cleanliness" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Decorative Order" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Carpets and flooring" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Windows" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Doors" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Curtains/blinds/nets" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Woodwork" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Lights and shades" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Furniture" }, { "content": null }]
+      },
+      {
+        "value": [{ "content": "Exterior" }, { "content": null }]
+      }
+    ]
+  },
+  {
+    "name": "Appliances",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#a1a3c2a3",
+    "typeHeadings": [
+      {
+        "name": "Name",
+        "label": "name",
+        "type": "text",
+        "placeholder": "Item Name...",
+        "category": "Manuals",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "Make",
+        "label": "description",
+        "type": "textarea",
+        "placeholder": "Make Description..",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "Model/Serial No.",
+        "label": "condition",
+        "type": "textarea",
+        "placeholder": "Model / Serial No...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Microwave" },
+          { "content": null },
+          { "content": "Model : nSerial No:" }
+        ]
+      },
+      {
+        "value": [
+          { "id": "1", "content": "Extractor fan", "headingId": "5" },
+          { "id": "2", "content": null, "headingId": "6" },
+          { "id": "3", "content": "Model : nSerial No:", "headingId": "7" }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Hob" },
+          { "content": null },
+          { "content": "Model : nSerial No:" }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Oven" },
+          { "content": null },
+          { "content": "Model : nSerial No:" }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Dishwasher" },
+          { "content": null },
+          { "content": "Model : nSerial No:" }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Fridge Freezer" },
+          { "content": null },
+          { "content": "Model : nSerial No:" }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Boiler" },
+          { "content": null },
+          { "content": "Model : nSerial No:" }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Washer Dryer" },
+          { "content": null },
+          { "content": "Model : nSerial No:" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alarms",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#FFBB5C",
+
+    "typeHeadings": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item Name...",
+        "category": "Alarms",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Location Room & Floor",
+        "type": "textarea",
+        "placeholder": "Location Room & Floor..",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "condition",
+        "label": "Test Result",
+        "type": "textarea",
+        "placeholder": "Test Result..",
+        "category": "Conditions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "expiry",
+        "label": "Expiry Date",
+        "type": "date",
+        "placeholder": "Test Result..",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Smoke" },
+          {
+            "content": "Location Room :  nFloor :"
+          },
+          { "content": null },
+          { "content": "new Date()" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meter Readings",
+    "placeholder": "meter readings",
+    "backgroundColor": "#CDCFEC",
+    "typeHeadings": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item Name...",
+        "category": "Meters",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Serial Number & Location",
+        "type": "textarea",
+        "placeholder": "Meter Serial Number & Location...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "condition",
+        "label": "Reading",
+        "type": "textarea",
+        "placeholder": "Meter Reading...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "date",
+        "label": "Date",
+        "type": "date",
+        "placeholder": "Test Result...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Gas Meter" },
+          { "content": "Serial No : nLocation:" },
+          { "content": null },
+          { "content": "new Date()" }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Electric Meter" },
+          { "content": "Serial No : nLocation:" },
+          { "content": null },
+          { "content": "new Date()" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Keys",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#BBE5E0",
+    "typeHeadings": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item Name..",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item Description..",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [{ "content": null }, { "content": null }]
+      }
+    ]
+  },
+  {
+    "name": "Entrance Hall",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F3BFAA",
+    "typeHeadings": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item Name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item condition...",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Conditions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Threshhold" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Sockets & Switches" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lounge",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F6E1D8",
+
+    "typeHeadings": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": "Items",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Description",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bedroom One",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F6E1D8",
+
+    "typeHeadings": [
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bedroom Two",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F6E1D8",
+
+    "typeHeadings": [
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bedroom Three",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F6E1D8",
+
+    "typeHeadings": [
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bedroom Four",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F6E1D8",
+
+    "typeHeadings": [
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bedroom Five",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F6E1D8",
+
+    "typeHeadings": [
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bedroom Six",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F6E1D8",
+
+    "typeHeadings": [
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Descriptions",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bathroom",
+    "placeholder": "Section name...",
+    "backgroundColor": "#F6E1D8",
+    "isSelect": true,
+    "typeHeadings": [
+      {
+        "label": "Name",
+        "name": "name",
+        "type": "text",
+        "placeholder": "Item Name...",
+        "isSelect": true,
+        "category": "Items",
+        "required": false,
+        "editable": true
+      },
+      {
+        "label": "Description",
+        "name": "description",
+        "type": "textarea",
+        "placeholder": "Item Name...",
+        "isSelect": true,
+        "category": "Descriptions",
+        "required": false,
+        "editable": true
+      },
+      {
+        "label": "Condition",
+        "name": "condition",
+        "type": "textarea",
+        "placeholder": "Item Name...",
+        "isSelect": true,
+        "category": "Conditions",
+        "required": false,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "values": [
+          {
+            "content": "Door"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Door Return"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Frame"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Frame Return"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Ceiling"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Walls"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Nearside"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Left Hand Side"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Far Side"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Right Hand Side"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Floor"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Lighting"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Windows"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "windowsill"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Heating"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Sockets & Switches"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Basin"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "content": "Toilet"
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kitchen",
+    "placeholder": "Section Name...",
+    "backgroundColor": "#F3BFAA",
+
+    "typeHeadings": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "placeholder": "Item name...",
+        "category": null,
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Description",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      },
+      {
+        "name": "condition",
+        "label": "Condition",
+        "type": "textarea",
+        "placeholder": "Item name...",
+        "category": "Condition",
+        "required": true,
+        "isSelect": true,
+        "editable": true
+      }
+    ],
+    "typeItems": [
+      {
+        "value": [
+          { "content": "Door" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Door Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame Return" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Frame" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Ceiling" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Walls" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Nearside" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Left Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Far Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Right Hand Side" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Skirting Boards & Woodwork" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+
+      {
+        "value": [
+          { "content": "Floor" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Lighting" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Windows" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "windowsill" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Sockets & Switches" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Basin" },
+          { "content": null },
+          { "content": null }
+        ]
+      },
+      {
+        "value": [
+          { "content": "Toilet" },
+          { "content": null },
+          { "content": null }
+        ]
+      }
+    ]
+  }
+]
